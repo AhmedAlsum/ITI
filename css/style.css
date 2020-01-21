@@ -207,7 +207,56 @@
     }
 }
 /*-------------------------------------------------------------------*/
-.content{
-    background: #e5e5e5;
-    height: 100vh;
+
+.container{
+    width: 80;
+    height: 200px;
+    font-family: sans-serif;
+    margin-bottom: 400px;
+   margin-left: 75px;
+    position: initial;
+
 }
+
+.month{
+    text-align: center;
+    background:rgba(59, 63, 66,0.7);
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 25px;
+    border: 1px solid skyblue;
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid skyblue;
+    color: white;
+
+
+}
+
+tr, th, td{
+    padding: 15px;
+}
+
+th{
+    background:rgba(59, 63, 66,0.7);
+    color: white;
+}
+
+td{
+    background:rgba(59, 63, 66,0.7);
+}
+
+td:hover{
+    background: rgb(231, 70, 70);
+    cursor: pointer;
+}
+
+
+
