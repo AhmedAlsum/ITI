@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+/*-------------------------------------------------------------------*/
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("file:///C:/Users/Desktop/jsproject/img/iti.jpg");
+    height: 750PX;
+    width: 106%;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+/*-------------------------------------------------------------------*/
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+
+.nav-logo img{
+    width: 300px;
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(231, 70, 70);
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav-links .btn{
+    float: right;
+}
+/*-------------------------------------------------------------------*/
+.btn{
+    padding: 20px 30px;
+    margin-left: 45%;
+    border: 0;
+    background: rgb(231, 70, 70);
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,0.8); /* Green */
+    color: white;
+}
+/*-------------------------------------------------------------------*/
+.banner-title{
+    margin-top: 5px;
+    color: #fff;
+    height: 570px;
+}
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.banner-title h1 span{
+    color: rgb(231, 70, 70);
+}
+
+.banner-title .mainMenu
+{
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.banner-title .profilePicture
+{
+    background-image: url();
+}
+/*-------------------------------------------------------------------*/
+.vertical-bar{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+/*-------------------------------------------------------------------*/
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+
+.search-icon a:hover{
+    text-decoration: none;
+}
+
+
+.search-icon a .fa{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.search-icon .fa:hover{
+    color: rgb(231, 70, 70);
+}
+
+.search-icon a{
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------*/
+.social-icon{
+    height: 35%;
+    width: 80px;
+    background: rgb(231, 70, 70);
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icon .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icon .fa:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.social-icon a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+/*-------------------------------------------------------------------*/
+.nav-bar .fa{
+    display: none;
+}
+
+@media (max-width: 700px){
+
+    .vertical-bar{
+        display: none;
+    }
+
+    .banner-title{
+        margin: 80px 40px;
+    }
+
+    .banner-title h1{
+        font-size: 50px;
+    }
+
+    .nav-bar{
+        padding: 10px 30px;
+    }
+
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    .nav-links ul a{
+        display: block;
+    }
+
+    .nav-links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+/*-------------------------------------------------------------------*/
+.content{
+    background: #e5e5e5;
+    height: 100vh;
+}
+
+.theme {
+    width: 285px;
+    height: 235px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    background-color: rgb(231, 70, 70);
+    border-radius: 0px 10% 10% 0;
+    display: none;
+}
+
+.make-me-block
+{
+    display: block;
+    width: 90%;
+    height: 20px;
+    margin: 15px;
+}
+
+.make-me-block input[type="color"]
+{
+    position: absolute;
+    left: 220px;
+    height: 25px;
+    width: 35px;
+    border-radius: 10%;
+}
+
+.make-me-block input[type="color"]:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+.text-color
+{
+    float: left;
+    font: 15px bold;
+    color: black;
+
+}
+/*////////////////////////////*/
+body {
+ 
+  margin: 0 auto; 
+  max-width: 80%; 
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+  margin-right: 50px;
+}
+.middle {
+  margin-left: 7%;
+  width: 70%;
+  margin-top: 10px;
+}
+.center {
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 20px;
+  }
+/* The bar container */
+.bar-container {
+  width: 125%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+/* bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 15%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 10%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 5%; height: 18px; background-color: #f44336;margin-bottom: 14%;}
+label.description
+{
+	border:none;
+	color:rgb(231, 21, 21);
+	font-size:100%;
+	font-weight:900;
+    line-height:150%;
+    margin-top: 40%;
+    margin-left: 43%;
+    margin-bottom: 40%;
+    margin-right: 3%;
+   
+}
+
+/*/////////*/
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
