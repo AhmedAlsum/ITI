@@ -1,0 +1,240 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/iti.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.vertical_nav
+{
+    height: 100vh;
+    width: 75px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(231, 70, 70);
+    z-index: 100px;
+}
+.vertical_nav .menu
+{
+    height: 70px;
+    width: inherit;
+    background-color: black;
+}
+
+.vertical_nav .menu a
+{
+    display: block;
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+.vertical_nav .menu a:hover
+{
+    transition-duration: 1s;
+    color: rgb(231, 70, 70);
+}
+
+.vertical_nav .tabs
+{
+    display: none;
+    height: 60%;
+    width: inherit;
+    background-color: black;
+}
+
+.vertical_nav .tabs a
+{
+    margin: auto;
+    display: block;
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.vertical_nav .tabs a i 
+{
+    display: block;
+    font-size: 40px;
+    line-height: 70px;
+    color: white;
+}
+
+.vertical_nav .tabs a i:hover
+{
+    transition-duration: 1s;
+    color: black;
+    border-radius:50%;
+    background-color: rgb(231, 70, 70);
+}
+
+
+.vertical_nav .social
+{
+    height: 40%;
+    width: inherit;
+    background-color: rgb(231, 70, 70);
+    padding-top: 30%;
+}
+
+.vertical_nav .social a
+{
+    margin: auto;
+    display: block;
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.vertical_nav .social a i 
+{
+    display: block;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+}
+
+.vertical_nav .social a i:hover
+{
+    transition-duration: 1s;
+    color: black;
+    border-radius:50%;
+}
+
+.nav-bar
+{
+    height: 150px;
+    z-index: 1;
+}
+
+.nav-bar .logo
+{
+    float: left;
+    height: 150px;
+    width: 30%;
+    line-height: 150px;
+}
+.nav-bar .logo img
+{
+    height: 60px;
+    width: 100%;
+    display: flexbox;
+}
+
+.nav-bar .menu
+{
+    float: right;
+    height: 150px;
+    width: 70%;
+    line-height: 150px;
+}
+
+.nav-bar .menu span
+{
+    display: block;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.nav-bar .menu span:hover
+{
+    cursor: pointer;
+    transition-duration: 1s;
+    color: rgb(231, 70, 70);
+}
+
+.signin
+{
+    margin-top: 25px;
+    height: 450px;
+    color: aliceblue;
+    background-color: rgb(231, 70, 70);
+}
+
+/***************************************/
+
+.modal01,.modal02,.modal03 {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 600px;
+    overflow: auto; 
+    margin-top: 75px;
+    margin-left: 180px;
+    
+  }
+
+  /***************************************/
+
+
+
+  .container{
+    width: 80;
+    height: 100px;
+    font-family: sans-serif;
+   margin-left: 75px;
+    position: initial;
+
+}
+
+.month{
+    text-align: center;
+    background:rgba(59, 63, 66,0.7);
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 25px;
+    border: 1px solid skyblue;
+    width: 100%;
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid skyblue;
+    color: white;
+
+
+}
+
+tr, th, td{
+    padding: 15px;
+}
+
+th{
+    background:rgba(59, 63, 66,0.7);
+    color: white;
+}
+
+td{
+    background:rgba(59, 63, 66,0.7);
+}
+
+td:hover{
+    background: rgb(231, 70, 70);
+    cursor: pointer;
+}
