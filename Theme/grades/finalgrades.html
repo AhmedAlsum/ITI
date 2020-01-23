@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <title>ITI - Management System</title>
+    <link rel="stylesheet" href="./css/mainCss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="finalgrades.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="vertical_nav">
+            <div class="menu">
+            <a href="#" id="menu"><i class="fa fa-indent"></i></a>
+            </div>
+            <div class="tabs" id="tabs">
+                <a href="./main.html"><i class="fa fa-home" aria-hidden="true"><br></i></a>
+                <a href="#"><i class="fa fa-check-square-o" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-table" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook" id="myBtn1"></i></a>
+                <a href="#"><i class="fa fa-twitter" id="myBtn2"></i></a>
+                <a href="#"><i class="fa fa-youtube fa-lg" id="myBtn3"></i></a>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------------------->
+        <div class="container nav-bar">
+            <div class="logo">
+                <img src="./img/logo.png " alt="The iti logo">
+            </div>
+            <div class="menu">
+                <span>Welcome to Your Portal</span>
+            </div>
+        </div>
+        <div class="container signin">
+            <div class="grades"  >
+                <h4 class="course"> Courses Grades</h4>
+                
+                    <table class="maintable" >
+                        <thead>
+                            <tr>
+                                <td >course</td>
+                                <td> grade</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rowofsubject" id=0> Advanced Presentation Skills</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td class="rowofsubject" id=1>Computer Network Fundamentals</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td class="rowofsubject" id=2>Introduction To Programming</td>
+                                <td> A</td>
+                            </tr>
+                            <tr>
+                                <td class="rowofsubject"  id=3>Operating System Fundamentals</td>
+                                <td>B</td> 
+                            </tr>
+                        </tbody>
+                    </table>
+            
+            </div>
+            <div class=" overlay suj" style="display: none" >
+              
+            <h4 >Advanced Presentation Skills   <span class="close" id=0> x </span> </h4>
+            <table id="suj" >
+            
+                <tr >
+                    <td>Total</td>
+                    <td>90.00  <sub> / 100.00</sub></td>
+                </tr >
+                <tr>
+                    <td>Weighted Total</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td> Class activities </td>
+                    <td>30.00 <sub> / 30.00</sub></td>
+                </tr>
+                <tr>
+                    <td>Final Presentation</td>
+                    <td>60.00 <sub> / 70.00</sub></td>
+                </tr>
+            </table>
+            </div>
+            <div  style="display: none" class=" overlay suj" >
+                
+            <h4>Computer Network Fundamentals <span class="close" id=1>x</span></h4>
+            <table  id="suj">
+                <tr >
+                    <td>Total</td>
+                    <td>87.00  <sub> / 100.00</sub></td>
+                </tr >
+                <tr>
+                    <td>Weighted Total</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td> Lab1 </td>
+                    <td>10.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Lab2 </td>
+                    <td>9.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Lab3 </td>
+                    <td>8.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td>Final Exame</td>
+                    <td>60.00 <sub> / 70.00</sub></td>
+                </tr>
+            </table>
+            </div>
+            <div  style="display: none"  class=" overlay suj" >
+                
+            <h4>Introduction To Programming <span class="close" id=2>x</span></h4>
+            <table  id="suj">
+                <tr >
+                    <td>Total</td>
+                    <td>85.00  <sub> / 100.00</sub></td>
+                </tr >
+                <tr>
+                    <td>Weighted Total</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td> Lab1 </td>
+                    <td>8.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Lab2 </td>
+                    <td>9.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Lab3 </td>
+                    <td>8.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td>Final Exame</td>
+                    <td>60.00 <sub> / 70.00</sub></td>
+                </tr>
+            </table>
+            </div>
+            <div    style="display: none" class=" overlay suj">
+               
+            <h4>Operating System Fundamentals <span class="close" id=3>x</span></h4>
+            <table  id="suj">
+                <tr >
+                    <td>Total</td>
+                    <td>77.00  <sub> / 100.00</sub></td>
+                </tr >
+                <tr>
+                    <td>Weighted Total</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td> Quiz 1 </td>
+                    <td>7.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Quiz 2 </td>
+                    <td>9.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td> Quiz 3 </td>
+                    <td>8.00 <sub> / 10.00</sub></td>
+                </tr>
+                <tr>
+                    <td>Final Exame</td>
+                    <td>53.00 <sub> / 70.00</sub></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------------------->
+    </div>
+
+
+    <div id="myModal01" class="modal01">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FITIchannel%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=160363881300876" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+        <div id="myModal02" class="modal02">
+            <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/itichannel2?ref_src=twsrc%5Etfw">Tweets by itichannel2</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>       
+         </div>
+
+    <div id="myModal03" class="modal03">
+        <iframe src='https://www.sociablekit.com/app/embed/33482' frameborder='0' width="500" height="500"></iframe>   
+     </div>
+
+
+<!----------------------------------------------------------------------------------------->
+<script src="./js/mainMenu.js"></script>
+<script src="grades.js">
+       
+</script>
+</body>
+</html>
