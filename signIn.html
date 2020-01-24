@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>ITI - Management System</title>
+    <link rel="stylesheet" href="./css/mainCss.css">
+    <link rel="stylesheet" href="./css/signIn.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="vertical_nav">
+            <div class="menu">
+            <a href="#" id="menu"><i class="fa fa-indent"></i></a>
+            </div>
+            <div class="tabs" id="tabs">
+                <a href="./signin.html"><i class="fa fa-home"><br></i></a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------------------->
+        <div class="container nav-bar">
+            <div class="logo">
+                <img src="./img/logo.png " alt="The iti logo">
+            </div>
+            <div class="menu">
+                <span>Welcome to Your Portal</span>
+            </div>
+        </div>
+        <div class="container signin">
+            <div class="row thing"  id="signinWindow">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 signinMenu" id="newUser">
+                    <span>New User</span>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 signinMenu" id="signin">
+                    <span>Sign In</span>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row register"  id="regiserform">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 regiserForm">
+                    <div class="row title">
+                        <label for="Enter">Enter A New Password For Your Id</label>
+                    </div>
+                    <div class="row inp">
+                        <label for="userID">user ID</label>
+                        <input type="text" name="userID" id="userID">
+                    </div>
+                    <div class="row inp">
+                        <label for="Currnet Password">Currnet Password</label>
+                        <input type="password" name="Password" id="password">
+                    </div>
+                    <div class="row inp">
+                        <label for="New Password">New Password</label>
+                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required name="newPassword" id="newPassword">
+                    </div>
+                    <div class="row inp">
+                        <label for="Retype Password">Retype Password</label>
+                        <input type="password" name="RetypePassword" id="RetypePassword">
+                    </div>
+                    <div class="submit">
+                        <label for="Submit" id="submit">Submit</label>
+                    </div>
+                </div>
+                <div class="col-md-3 error" id="error"></div>
+            </div>
+            <div class="row signinform"  id="signinform">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 signForm">
+                    <div class="row title">
+                        <label for="Enter">Log In</label>
+                    </div>
+                    <div class="row inp">
+                        <label for="userID">user ID</label>
+                        <input type="text" name="userID" id="signinuserID">
+                    </div>
+                    <div class="row inp">
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="signinpassword">
+                    </div>
+                    <div class="submit">
+                        <label for="Submit" id="signinsubmit">Submit</label>
+                    </div>
+                </div>
+                <div class="col-md-3 error" id="errorsignin"></div>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------------------->
+    </div>
+
+
+<!----------------------------------------------------------------------------------------->
+<script src="./js/mainMenu.js"></script>
+<script src="./js/signIn.js"></script>
+</body>
+</html>

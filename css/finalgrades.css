@@ -1,0 +1,103 @@
+
+.signin
+{
+    margin-top: 25px;
+    height: 450px;
+    color: aliceblue;
+    background-color: rgba(231, 70, 70, 0.445);
+    border-radius: 25px;
+}
+
+/***************************************/
+
+.modal01,.modal02,.modal03 {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 600px;
+    overflow: auto; 
+    margin-top: 75px;
+    margin-left: 180px;
+    
+  }
+
+
+.grades{
+    padding-top: 50px;
+ }
+ .maintable{
+     width:100%;
+     padding: 25px;
+     font-weight: 150px;
+    } 
+    td{
+     border:1px solid #bbbbbb ;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-align-last: center;
+    }
+    .suj{
+     width:75%; 
+     padding:25px 50px 50px 150px; 
+    } 
+    
+    #suj{
+     border:5px solid #bbbbbb ;
+     width:75%;
+     padding: 25px;
+     background-color: #fff;
+     color: #000;
+     position: absolute;
+     top: 30%;
+     left: 12%;
+    }
+ 
+    .overlay {
+     position: absolute; 
+     display: none; 
+     width: 100%; 
+     height: 100%; 
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.959); 
+     cursor: pointer; 
+   }
+   .course{
+     display: block;
+     text-align: center;
+     margin-right: 10%;
+     margin-bottom: 20px;
+     color: white;
+   }
+    h4{
+        padding-bottom: 15px;
+        color: #fff;
+        position: absolute;
+        top:25%;
+        left: 40%;
+    }
+    .close {
+      cursor: pointer;
+      position: absolute;
+      top: 26%;
+      right: 13%;
+      color:#ffffff9f;
+      padding: 12px 16px;
+      transform: translate(0%, -50%);
+      background-color: red;
+      border-radius: 100%;
+      width: 45px;
+      height: 45px;
+      line-height: 13px;
+    }
+
+    .trTable
+    {
+      cursor: pointer;
+    }

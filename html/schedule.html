@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <title>ITI - Management System</title>
+    <link rel="stylesheet" href="../css/schduelerCss.css">
+    <link rel="stylesheet" href="../css/cardsCss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="vertical_nav">
+            <div class="menu">
+            <a href="#" id="menu"><i class="fa fa-indent"></i></a>
+            </div>
+            <div class="tabs" id="tabs">
+                <a href="./main.html"><i class="fa fa-home" aria-hidden="true"><br></i></a>
+                <a href="#"><i class="fa fa-tasks" aria-hidden="true" id="myBtn4"></i></a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook" id="myBtn1"></i></a>
+                <a href="#"><i class="fa fa-twitter" id="myBtn2"></i></a>
+                <a href="#"><i class="fa fa-youtube fa-lg" id="myBtn3"></i></a>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------------------->
+       <div class="container nav-bar">
+            <div class="logo">
+                <img src="../img/logo.png " alt="The iti logo">
+            </div>
+            <div class="menu">
+                <span>Your Monthly Schdule</span>
+            </div>
+        </div> 
+        <div class="container ">
+            <div class="row" id="table">
+                <div class="month">
+                    <strong>January - 2020</strong>
+                </div>
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th>sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                    
+                        <tbody id="tbody"></tbody>
+                    </table>
+            </div>  
+            
+        </div>
+           
+        <!----------------------------------------------------------------------------------------->
+    
+
+
+    <div id="myModal01" class="modal01">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FITIchannel%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=160363881300876" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+        <div id="myModal02" class="modal02">
+            <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/itichannel2?ref_src=twsrc%5Etfw">Tweets by itichannel2</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>       
+         </div>
+
+    <div id="myModal03" class="modal03">
+        <iframe src='https://www.sociablekit.com/app/embed/33482' frameborder='0' width="500" height="500"></iframe>   
+     </div>
+
+<!----------------------------------------------------------------------------------------->
+
+     <div id="myModal04" class="modal04" style="display:none;">
+        <iframe src="ToDoList.html" style="height:410px;width:80%; margin-left: 165px;"></iframe>
+    </div>
+<!----------------------------------------------------------------------------------------->
+<script src="../js/mainMenu.js"></script>    
+<script src="../js/scheduler.js"></script>
+</body>
+</html>

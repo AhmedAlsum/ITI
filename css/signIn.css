@@ -1,0 +1,272 @@
+.signin
+{
+    margin-top: 25px;
+    height: 450px;
+}
+
+.signin .thing
+{
+    width: 100%;
+    display: flex;
+}
+
+.signin .thing .signinMenu
+{
+    height: 450px;
+    background-color: rgba(59, 63, 66,0.7);
+    border: white 3px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+.signin .thing .signinMenu span
+{
+    display: block;
+    font-size: 50px;
+    line-height: 450px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.signin .thing .signinMenu:hover
+{
+    transition-duration: 1s;
+    border: red 3px solid;
+    cursor: pointer;
+}
+
+.signin .thing .signinMenu span:hover
+{
+    transition-duration: 1s;
+    color: red;
+}
+
+.signin .register
+{
+    width: 100%;
+    display: none;
+}
+
+.signin .register .regiserForm
+{
+    height: 450px;
+    background-color: rgba(2, 2, 2, 0.712);
+    border: white 3px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.signin .register .regiserForm .title
+{
+    height: 50px;
+    font: 23px bold;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .register .regiserForm .title label
+{
+    display: flexbox;
+    margin: auto;
+}
+
+.signin .register .regiserForm .inp
+{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signin .register .regiserForm .inp label
+{
+    display: felxbox;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
+    font: 15px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .register .regiserForm .inp input[type="text"]
+{
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    border-radius: 5px;
+}
+
+.signin .register .regiserForm .inp input[type="password"]
+{
+    height: 30px;
+    display: felxbox;
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    border-radius: 5px;
+}
+
+.signin .register .regiserForm .submit
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+    background-color: white;
+    color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .register .regiserForm .submit label
+{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.signin .register .regiserForm .submit:hover
+{
+    transform: scale(1.25);
+    transition-duration: 1s;
+    color: white;
+    background-color: red;
+    border: 3px solid white;
+    line-height: 67px;
+}
+
+.signin .register .error
+{
+    display: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.342);
+    padding-top: 150px;
+    border-radius: 0px 10px 10px 0px;
+}
+.signin .register .error div
+{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .signinform
+{
+    width: 100%;
+    display: none;
+}
+
+.signin .signinform .signForm
+{
+    height: 450px;
+    background-color: rgba(2, 2, 2, 0.712);
+    border: white 3px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.signin .signinform .signForm .title
+{
+    height: 130px;
+    font: 23px bold;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .signinform .signForm .title label
+{
+    display: flexbox;
+    margin: auto;
+}
+
+.signin .signinform .signForm .inp
+{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.signin .signinform .signForm .inp label
+{
+    display: felxbox;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
+    font: 15px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .signinform .signForm .inp input[type="text"]
+{
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    right: 35px;
+    border-radius: 5px;
+}
+
+.signin .signinform .signForm .inp input[type="password"]
+{
+    height: 30px;
+    display: felxbox;
+    margin-top: 10px;
+    position: absolute;
+    right: 35px;
+    border-radius: 5px;
+}
+
+.signin .signinform .signForm .submit
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+    background-color: white;
+    color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signin .signinform .signForm .submit label
+{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.signin .signinform .signForm .submit:hover
+{
+    transform: scale(1.25);
+    transition-duration: 1s;
+    color: white;
+    background-color: red;
+    border: 3px solid white;
+    line-height: 67px;
+}
+
+.signin .signinform .error
+{
+    display: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.342);
+    padding-top: 150px;
+    border-radius: 0px 10px 10px 0px;
+}
+.signin .signinform .error div
+{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

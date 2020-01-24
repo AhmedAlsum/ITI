@@ -1,0 +1,330 @@
+.banner-title
+{
+    margin-top: 25px;
+    height: 400px;
+    z-index: 1;
+}
+
+
+.banner-title .profilePicture
+{
+    height: auto;
+    padding-top: 4%;
+}
+
+.banner-title .profilePicture .Picture
+{
+    width: 160px;
+    height: 160px;
+    display: flexbox;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.banner-title .profilePicture input[type="file"]
+{
+    display: flex;
+    font: 25px arial;
+    width: 150px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+.banner-title .mainInfo
+{
+    display: block;
+    height: auto;
+}
+
+.banner-title .mainInfo .form
+{
+    height: auto;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+}
+
+.banner-title .mainInfo .form .fromData
+{
+    background-color: rgba(0, 0, 0, 0.185);
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    color: white;
+}
+
+.banner-title .mainInfo .form .fromData:hover
+{
+    transition-duration: 0.5s;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.banner-title .mainInfo .form .fromData div
+{
+    width: auto;
+    height: 70px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font: 25px arial white;
+}
+
+
+.banner-title .header
+{
+    height: 100px;
+}
+.banner-title .header span
+{
+    font: 35px bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.banner-title .header span .spanName
+{
+    display: inline;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-title .header span .spanName:hover
+{
+    color: red;
+    cursor: pointer;
+}
+/*-------------------------------------------------------------------*/
+
+.banner-title .input-info 
+{
+    display: none;
+}
+
+.banner-title .input-info .formInput
+{
+    height: auto;
+    margin-top: 35px;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+}
+
+
+.banner-title .input-info .formInput .fromData
+{
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 290px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    line-height: 50px;
+}
+
+
+.banner-title .input-info .formInput .fromData label
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.banner-title .input-info .formInput .fromData input[type="text"]
+{
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flexbox;
+    margin-top: 8px;
+}
+
+.banner-title .input-info .formInput .fromData input[type="date"]
+{
+    width: 170px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+
+.banner-title .input-info .formInput .fromSubmit
+{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.banner-title .input-info .formInput .fromSubmit input[type="submit"]
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+
+.banner-title .input-info .formInput .fromSubmit input[type="submit"]:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+.banner-title .error
+{
+    display: none;
+    margin-top: 15px;
+    height: 33px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    border: 1px red solid;
+}
+.banner-title .error table
+{
+    height: auto;
+    line-height: 10px;
+}
+
+
+.banner-title .error table tr td
+{
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    background-color: rgba(153, 35, 35, 0);
+    font: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    color: red;
+}
+.banner-title .error table tr td div
+{
+    height: 20px;
+    margin-top: 10px;
+}
+
+.banner-title .error table tr td:hover
+{
+    background-color: rgb(255, 57, 57);
+    color: white;
+}
+
+.theme {
+    width: 285px;
+    height: 235px;
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    background-color: rgba(255, 0, 0, 0.541);
+    border-radius: 0px 10% 10% 0;
+    display: none;
+}
+
+.make-me-block
+{
+    display: block;
+    width: 90%;
+    height: 20px;
+    margin: 15px;
+}
+
+.make-me-block input[type="color"]
+{
+    position: absolute;
+    left: 220px;
+    height: 25px;
+    width: 35px;
+    border-radius: 10%;
+}
+
+.make-me-block input[type="color"]:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+.text-color
+{
+    float: left;
+    font: 15px bold;
+    color: white;
+
+}
+
+.hello
+{
+    height: 100px;
+    line-height: 100px;
+}
+
+.hello .helloDiv
+{
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.hello .helloDiv span
+{
+    color: white;
+    font-size: 45px;
+}
+
+.hello .helloDiv span:hover
+{
+    transition-duration: 0.5s;
+    color: red;
+    cursor: pointer;
+}
+
+.modal01,.modal02,.modal03 {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 600px;
+    overflow: auto; 
+    margin-top: 75px;
+    margin-left: 180px;
+    
+  }
