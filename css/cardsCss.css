@@ -19,7 +19,7 @@ body
     top: 0px;
     left: 0px;
     background-color: red;
-    z-index: 100;
+    z-index: 100px;
 }
 .vertical_nav .menu
 {
@@ -95,7 +95,7 @@ body
     margin: auto;
     display: block;
     width: inherit;
-    height: 50px;
+    height: 70px;
     text-align: center;
     text-decoration: none;
 }
@@ -159,4 +159,27 @@ body
     transition-duration: 1s;
     color: red;
 }
+
+
+
+/***************************************/
+
+.modal01,.modal02,.modal03 {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 600px;
+    overflow: auto; 
+    margin-top: 75px;
+    margin-left: 180px;
+    
+  }
+
+  /***************************************/
+
+
 

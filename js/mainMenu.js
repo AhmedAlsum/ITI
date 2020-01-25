@@ -21,59 +21,66 @@ var isClicked = false;
 var btn1 = document.getElementById("myBtn1");
 var btn2 = document.getElementById("myBtn2");
 var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
 
 var x = document.getElementById("myModal01");
 var y = document.getElementById("myModal02");
 var z = document.getElementById("myModal03");
+var table = document.getElementById("table");
 
-btn1.onclick = function() {
-    showHiddenTOdolist1();
+var facebook = true;
+var twitter = true;
+var youtube = true;
+btn1.addEventListener("click",function(e) {
+  if (facebook == true) {
+    x.style.display = "block";
+    y.style.display = "none";
+    z.style.display = "none";
+    facebook = false;
+  } else {
+    x.style.display = "none";
+    facebook = true;
   }
+});
 
-btn2.onclick = function() {
-    showHiddenTOdolist2();
-  }
+btn2.addEventListener("click",function(){
 
-btn3.onclick = function() {
-    showHiddenTOdolist3();
-  }
-  
-  function showHiddenTOdolist1() {
-   
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      y.style.display = "none";
-      z.style.display = "none";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function showHiddenTOdolist2() {
-    
-    if (y.style.display === "none") {
-      x.style.display = "none";
-      y.style.display = "block";
-      z.style.display = "none";
-    } else {
-      y.style.display = "none";
-    }
+  if (twitter == true) {
+    x.style.display = "none";
+    y.style.display = "block";
+    z.style.display = "none";
+    twitter = false;
+  } else {
+    y.style.display = "none";
+    twitter = true;
   }
 
-  function showHiddenTOdolist3() {
-    if (z.style.display === "none") {
-      x.style.display = "none";
-      y.style.display = "none";
-      z.style.display = "block";
-    } else {
-      z.style.display = "none";
-    }
+});
+
+btn3.addEventListener("click",function(){
+
+  if (youtube == true) {
+    x.style.display = "none";
+    y.style.display = "none";
+    z.style.display = "block";
+    youtube = false;
+  } else {
+    z.style.display = "none";
+    youtube = true;
   }
+})
+
   
   window.onclick = function(event) {
     if (event.target == myModal01) {
         myModal01.style.display = "none";
     }
+    if (event.target == myModal02) {
+      myModal02.style.display = "none";
+  }
+    if (event.target == myModal03) {
+        myModal03.style.display = "none";
+    } 
   }
 
   /***********************************************************************************/

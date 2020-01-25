@@ -1,6 +1,7 @@
 /*-------------------------------------------------------------------*/
 .service_box{
     padding:40px 20px;
+    height: 400px;
     text-align: center;
     border-radius:25px;
     background:rgba(59, 63, 66,0.7);
@@ -9,7 +10,7 @@
 }
 
 .service_box:hover{
-    background:rgb(231, 70, 70);
+    background:red;
 }
 
 .service_box .service_icon{
@@ -66,7 +67,7 @@
     
     padding: 10px 20px;
 border: 0;
-background: rgb(231, 70, 70);
+background: red;
 font-weight: bold;
 cursor: pointer;
 color: white;
