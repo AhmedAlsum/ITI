@@ -10,7 +10,7 @@
 }
 
 .service_box:hover{
-    background:rgb(231, 70, 70);
+    background:red;
 }
 
 .service_box .service_icon{

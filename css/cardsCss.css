@@ -18,8 +18,8 @@ body
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgb(231, 70, 70);
-    z-index: 100px;
+    background-color: red;
+    z-index: 100;
 }
 .vertical_nav .menu
 {
@@ -43,7 +43,7 @@ body
 .vertical_nav .menu a:hover
 {
     transition-duration: 1s;
-    color: rgb(231, 70, 70);
+    color: red;
 }
 
 .vertical_nav .tabs
@@ -78,7 +78,7 @@ body
     transition-duration: 1s;
     color: black;
     border-radius:50%;
-    background-color: rgb(231, 70, 70);
+    background-color: red;
 }
 
 
@@ -86,7 +86,7 @@ body
 {
     height: 40%;
     width: inherit;
-    background-color: rgb(231, 70, 70);
+    background-color: red;
     padding-top: 30%;
 }
 
